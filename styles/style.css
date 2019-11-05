@@ -15,6 +15,10 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+hr {
+  width: 50%;
+}
+
 .photo-collage-thumbnails{
   text-align: center;
   list-style-type: none;
