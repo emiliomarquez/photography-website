@@ -1,11 +1,20 @@
 @charset "UTF-8";
 
-html {
-  height: 100%;
+/*
+*{
+  margin:0
 }
+*/
+
+
 
 h1 {
   font-family:  'Assistant', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: #000000;
 }
 
 body {
@@ -19,8 +28,20 @@ hr {
   width: 50%;
 }
 
-.photo-collage-thumbnails{
+.side-menu{
+  font-size: 15pt;
+  box-sizing: border-box;
+  width: 50%; /* not sure if needed yet */
+  border: 5px solid red;
+  float: left;
   text-align: center;
+
+}
+
+.photo-collage-thumbnails{
+  /*float: right;*/
+  text-align: center;
+  margin:0;
   list-style-type: none;
 }
 
