@@ -39,16 +39,28 @@ hr {
 }
 
 .photo-collage-thumbnails{
-  /*float: right;*/
+  /*
+  box-sizing:content-box;
+  border: 5px solid red;
+  float: center;
+  */
   text-align: center;
   margin:0;
   list-style-type: none;
+
+  /* code below allows side by side images */
+  padding-top: 5px;
 }
+
 
 .img__wrap {
   position: relative;
   height: 300px;
   width: 300px;
+
+  /* code below allows side by side images */
+  float: left;
+  padding: 2px; /* overall padding between each image */
 }
 
 .photo__description {
