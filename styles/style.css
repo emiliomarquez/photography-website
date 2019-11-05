@@ -1,5 +1,21 @@
+@charset "UTF-8";
+
+html {
+  height: 100%;
+}
+
 h1 {
-  font-size: 50px; /* px means "pixels": the base font size is now 10 pixels high  */
-  font-family: 'Assistant', sans-serif;
-  /*font-family: 'Hind', sans-serif;  this should be the rest of the output you got from Google fonts */
+  font-family:  'Assistant', sans-serif;
+}
+
+body {
+  height: 100%;
+  font-family:  'Assistant', sans-serif;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+.photo-collage-thumbnails{
+  text-align: right;
+  list-style-type: none;
 }
