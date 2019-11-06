@@ -29,14 +29,18 @@ hr {
 }
 
 .side-menu{
+  position: fixed; /* allows for side menu to stay in view while scrolling*/
+  height: 100%; /* Full-height */
+
   font-size: 15pt;
   box-sizing: border-box;
   width: 50%; /* not sure if needed yet */
-  border: 5px solid red;
+  /*border: 5px solid red;*/
   float: left;
   text-align: center;
-
 }
+
+
 
 .photo-collage-thumbnails{
   /*
@@ -81,4 +85,59 @@ hr {
 .img__wrap:hover .photo__description {
   visibility: visible;
   opacity: 1;
+}
+
+/*#################
+
+social media icons section
+
+#################*/
+
+/* Style all font awesome icons */
+.fa {
+  font-size: 30px;
+  padding: 10px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  float: center;
+
+  /* allows icons to be bottom of sidebar */
+  position: absolute;
+  display: inline-block;
+  bottom: 50px;
+
+  border: 1px solid black;
+
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+.fa-instagram {
+  /*left: 15px;*/
+  left:30px; /* controls how far u want the icon from left side of sidebar */
+
+  background: #ffffff;
+  color: black;
+}
+
+.fa-youtube{
+  left: 85px;
+
+  background: #ffffff;
+  color: black;
+}
+
+
+/* Twitter */
+.fa-twitter {
+  left: 140px;
+
+  background: #ffffff;
+  color: black;
 }
