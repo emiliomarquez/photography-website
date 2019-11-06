@@ -31,6 +31,7 @@ hr {
 .side-menu{
   position: fixed; /* allows for side menu to stay in view while scrolling*/
   height: 100%; /* Full-height */
+  left:17px;
 
   font-size: 15pt;
   box-sizing: border-box;
