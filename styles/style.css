@@ -6,7 +6,15 @@
 }
 */
 
-
+/*
+code below allows for sidebar to disappear
+after browser minimizes to certain level
+*/
+@media (max-width: 768px) {
+    .side-menu {
+        display: none;
+    }
+}
 
 h1 {
   font-family:  'Assistant', sans-serif;
