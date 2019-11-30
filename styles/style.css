@@ -10,15 +10,14 @@
 code below allows for sidebar to disappear
 after browser minimizes to certain level
 */
+
+
 @media (max-width: 768px) {
     .side-menu {
         display: none;
     }
 }
 
-h1 {
-  font-family:  'Assistant', sans-serif;
-}
 
 a{
   text-decoration: none;
@@ -98,6 +97,59 @@ hr {
 
 /*#################
 
+'photos' section for every individual page
+
+#################*/
+
+.photo_post{
+  margin-top: 0;
+  margin-bottom:0;
+  color:black;
+  text-align: center;
+}
+
+.photo_post h1{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: normal;
+  font-size: 70px;
+  margin: 0;
+}
+
+.photo_post ul{
+  list-style: none;
+}
+
+.photo_post li{
+  font-size: 15px;
+  display:inline-block;
+  padding: 0 15px;
+  border-right: 1px solid #999;
+}
+
+.photo_post li:last-child{
+  border-right:0;
+}
+
+.fa-calendar-o{
+  padding: 5px;
+  position:relative;
+  display: inline-block;
+}
+
+.fa-map-marker{
+  padding: 5px;
+  position:relative;
+  display: inline-block;
+}
+
+.fa-camera{
+  padding: 5px;
+  position:relative;
+  display: inline-block;
+}
+
+/*#################
+
 social media icons section
 
 #################*/
@@ -105,11 +157,28 @@ social media icons section
 /* Style all font awesome icons */
 .fa {
   font-size: 30px;
-  padding: 10px;
-  width: 30px;
   text-align: center;
   text-decoration: none;
   float: center;
+
+}
+
+/* Add a hover effect if you want
+.fa:hover {
+  opacity: 0.7;
+}
+*/
+
+/* Set a specific color for each brand */
+
+.fa-instagram{
+  padding: 10px;
+  width: 30px;
+  /*left: 15px;*/
+  left:30px; /* controls how far u want the icon from left side of sidebar */
+
+  background: #ffffff;
+  color: black;
 
   /* allows icons to be bottom of sidebar */
   position: absolute;
@@ -117,36 +186,47 @@ social media icons section
   bottom: 50px;
 
   border: 1px solid black;
-
 }
-
-/* Add a hover effect if you want */
-.fa:hover {
+.fa-instagram:hover{
   opacity: 0.7;
 }
 
-/* Set a specific color for each brand */
-
-.fa-instagram {
-  /*left: 15px;*/
-  left:30px; /* controls how far u want the icon from left side of sidebar */
-
-  background: #ffffff;
-  color: black;
-}
-
 .fa-youtube{
+  padding: 10px;
+  width: 30px;
   left: 85px;
 
   background: #ffffff;
   color: black;
+
+  /* allows icons to be bottom of sidebar */
+  position: absolute;
+  display: inline-block;
+  bottom: 50px;
+
+  border: 1px solid black;
+}
+.fa-youtube:hover{
+  opacity: 0.7;
 }
 
 
 /* Twitter */
 .fa-twitter {
+  padding: 10px;
+  width: 30px;
   left: 140px;
 
   background: #ffffff;
   color: black;
+
+  /* allows icons to be bottom of sidebar */
+  position: absolute;
+  display: inline-block;
+  bottom: 50px;
+
+  border: 1px solid black;
+}
+.fa-twitter:hover{
+  opacity: 0.7;
 }
