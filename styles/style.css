@@ -148,6 +148,12 @@ hr {
   display: inline-block;
 }
 
+.photo_post img{
+  height: 50%;
+  width: 50%;
+  position: relative;
+}
+
 /*#################
 
 social media icons section
